@@ -1,0 +1,26 @@
+Describe basic features of data
+Giving short summaries about the sample and measure of data
+Helps to Describe of the data set and summarises the data 
+We can use describe() in pandas 
+    df.describe()
+Summerize the categorical data is by using the value_count() method 
+
+Box Plots 
+Great way to visualise data .It shows 
+    Median of the day 
+    Upper and lower Quartile
+    Lower and upper Extreme
+    eg:
+        sns.boxplot(x=drive-wheels,y="price",data=df)
+
+Scatter Plot 
+Each observation rep as points
+shows relationship between 2 variable 
+    1. predictor variable (engine size) on x-axis.
+    2. Target/dependent(y) variable on y-axis
+
+Python Implmentation 
+x,y=df["price"],df["engine-size"]
+plt.title("Engine Size vs Price")
+plt.xlabel("Engine size")
+plt.ylabel("price")

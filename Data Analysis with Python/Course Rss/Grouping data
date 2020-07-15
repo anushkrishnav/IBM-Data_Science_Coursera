@@ -1,0 +1,6 @@
+Group by using python
+
+df.Groupby()
+    Can be used on categorical group
+    Group data into categories
+    Single or multiple variables

@@ -1,0 +1,12 @@
+A model or estimator can be thought of as a mathematical equation used to predict the value given one or more other values. 
+Relating one or more independent variables or features to dependent variables.
+
+Types of Model Development
+Simple  Linear Regression 
+    one independednt variable to make prediction
+    End goal : this equation y=b0+ b1*X
+        Where b0 is the intercept 
+              b1 is the slope
+Multiple Linear Regression
+    multiple independednt variables
+Polynomail Linear Regression
